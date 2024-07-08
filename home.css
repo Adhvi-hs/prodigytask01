@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: hsl(0, 22%, 96%);
+}
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: #e271d5;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: #e271d5;
+ margin: auto;
+}
+nav .navbar .logo a::before{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #f2f2f2;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style:none;
+  margin: 0 15px;
+  font-size: large;
+  color: #f2f2f2;
+  text-decoration:#f5f0f0;
+}
+.navbar .menu li a:hover{
+  color: #dce1e8;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration:solid;
+  background-color: rgb(11, 63, 216);
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+#Home{
+ background: #dce1e8;
+ font-size:x-large;
+ color: #083450;
+ text-shadow: #1f2224;
+}
+#About {
+  background: #f2f2f2;
+ font-size: x-large;
+ color: #083450;
+ text-shadow: #083450;
+ margin-top: 50px;
+}
+.about{
+   
+    font-size: larger;
+    color: #083450;
+    text-shadow: #083450;
+}
+#Category a:hover{
+  background: #e6e6e6;
+}
+#Latest{
+  background: #fff;
+}
+#Contact{
+  background: #f2f2f2;
+  font-size: medium;
+    color: #083450;
+    text-shadow: #083450;
+}
+#Feedback{
+  background: #e6e6e6;
+  font-size:larger;
+  color: #083450;
+  text-shadow: #083450;
+
+}
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+.images{
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+}
+.feedback
+{
+    margin-top: 100px;
+    color: #083450;
+    font-size: large;
+}
